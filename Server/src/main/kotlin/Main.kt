@@ -1,8 +1,8 @@
 fun main(){
     var start = true
-
+    val server = Server()
     while(start) {
-        val server = Server()
+        server.start()
     }
 
 }
